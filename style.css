@@ -28,8 +28,7 @@ h1{
 }
 footer {
     text-align: center;
-    display: flex;
-    align-items: center;
+    margin-top: auto;
 }
 
 
