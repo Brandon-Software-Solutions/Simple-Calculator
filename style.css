@@ -1,111 +1,42 @@
-/* Page background */
 body {
-    background: linear-gradient(135deg, #000000, #1a1a1a);
-    font-family: Arial, sans-serif;
+    background-color:black;
+    font-family: arial;
     color: white;
-
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
 }
-
-/* Main card */
-.maindiv {
+h1{
+    color:green;
+    font-family: verdana;
+}
+.maindiv{
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: black;
-    width: 340px;
-    padding: 25px;
-
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
     text-align: center;
+    margin: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-/* Heading */
-h1 {
-    color: green;
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-/* Labels + spacing */
-.maindiv {
-    line-height: 2;
-    font-size: 14px;
-}
-
-/* Inputs (number & datalist) */
-.maindiv input[type="number"] {
-    width: 90%;
-    padding: 8px;
-    margin: 5px 0;
-
+.maindiv input[type="number"]{
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-
-    font-size: 14px;
-    outline: none;
+    width: 90%;
+    margin: 10px 10px;
 }
-
-/* Range slider */
-.maindiv input[type="range"] {
-    width: 80%;
-    margin: 10px 0;
-    cursor: pointer;
-}
-
-/* Focus effect */
-.maindiv input:focus {
-    border-color: green;
-    box-shadow: 0 0 4px rgba(0, 128, 0, 0.4);
-}
-
-/* Rate value text */
-#rate_val {
-    font-weight: bold;
-    color: green;
-}
-
-/* Result */
-#result {
-    font-weight: bold;
-    color: #333;
-}
-
-/* Button */
-button {
-    margin-top: 15px;
-    padding: 10px 20px;
-
-    background-color: green;
-    color: white;
-
-    border: none;
-    border-radius: 20px;
-
-    font-size: 14px;
-    cursor: pointer;
-
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-/* Button hover */
-button:hover {
-    background-color: darkgreen;
-    transform: scale(1.05);
-}
-
-/* Footer */
 footer {
-    position: absolute;
-    bottom: 10px;
-
-    width: 100%;
     text-align: center;
-    font-size: 12px;
-    color: #aaa;
+    margin-top: auto;
+    color:white;
 }
+
+
