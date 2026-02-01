@@ -7,6 +7,9 @@ h1{
     color:green;
     font-family: verdana;
 }
+#mainbody{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 .maindiv{
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
