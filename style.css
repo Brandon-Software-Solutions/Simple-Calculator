@@ -26,6 +26,9 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+input {
+    padding-left: 2px;
+}
 footer {
     text-align: center;
     margin-top: auto;
