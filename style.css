@@ -9,6 +9,7 @@ h1{
 }
 #mainbody{
     background-color: rgba(125, 125, 125, 0.5);
+    padding-top: 25px;
 }
 .maindiv{
     background-color: white;
